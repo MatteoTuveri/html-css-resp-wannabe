@@ -131,6 +131,7 @@ img {
  @media screen and (max-width:768px) {
     .container {
         width: 720px;
+        margin: 0;
     }
  }
  
@@ -140,9 +141,19 @@ img {
     }
     .row{
         flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    .lessons .col {
+        width: 100%;
+    }
+    .why-us .col-left {
+        width: 100%;
     }
     
+    .why-us .col-right {
+        width: 100%;
+    }
  }
  
